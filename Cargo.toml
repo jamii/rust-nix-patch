@@ -1,0 +1,11 @@
+[package]
+name = "rust-nix-patch"
+version = "0.1.0"
+authors = ["Jamie Brandon <jamie@scattered-thoughts.net>"]
+edition = "2018"
+
+[dependencies]
+regex = "*"
+
+[patch.crates-io]
+regex = { git = "https://github.com/rust-lang/regex.git" }
