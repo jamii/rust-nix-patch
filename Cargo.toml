@@ -8,4 +8,4 @@ edition = "2018"
 regex = "*"
 
 [patch.crates-io]
-regex = { git = "https://github.com/rust-lang/regex.git" }
+regex = { git = "https://github.com/jamii/regex.git" }
